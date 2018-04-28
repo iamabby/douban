@@ -1,0 +1,39 @@
+.movie_block {
+  width: 100%;
+  overflow: hidden;
+}
+.movie_block h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+.movie_block ul {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.movie_block li {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  text-align: center;
+  margin-left: 10px;
+}
+.movie_block li:first-child {
+  margin-left: 0;
+}
+.movie_block .pic {
+  width: 100px;
+  height: 142px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.movie_block .title {
+  margin: 8px 0;
+  color: #999;
+}
+.movie_block .date {
+  font-size: 14px;
+  color: #999;
+}
