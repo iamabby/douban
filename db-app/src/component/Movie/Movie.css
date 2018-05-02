@@ -37,3 +37,54 @@
   font-size: 14px;
   color: #999;
 }
+a {
+  text-decoration: none;
+}
+.subject_info {
+  width: 100%;
+  overflow: hidden;
+}
+.subject_info .infos {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  margin-left: 15px;
+}
+.subject_info .ratings_count {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #999;
+}
+.detail_pic {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.detail_title {
+  padding: 15px 0;
+  text-align: center;
+}
+.summary {
+  margin-top: 10px;
+  line-height: 26px;
+  font-size: 12px;
+  color: #999;
+}
+.casts {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.casts ul {
+  width: 100%;
+  overflow-x: scroll;
+  padding: 15px 0;
+}
+.casts li {
+  display: inline-block;
+  width: 75px;
+  margin: 0 5px;
+}
+.casts li:first-child {
+  margin-left: 0;
+}
