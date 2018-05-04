@@ -1,0 +1,23 @@
+.login_block {
+  width: 100%;
+}
+.login_block input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+.btn_login {
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+  width: 100%;
+  padding: 10px 26px;
+  color: #ffffff;
+  background: #17AA52;
+  border: 1px solid #17AA52;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}

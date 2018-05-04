@@ -1,12 +1,18 @@
 import React from "react";
+import Login from "../Login/Login";
 
 
-
-class Group extends React.Component  {
+class Group extends React.Component {
     render() {
-        return(
-             <div> Group </div>
-            )
+        return (
+            <div>
+                Group
+
+                <Login />
+
+            </div>
+
+        )
     }
 }
 
